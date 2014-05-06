@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Web Page</title>
+</head>
+<body>
+
+<h1>Insert</h1>
+<form method="post" action="insert.php">
+	Firstname: 	<input type="text" name="firstname"><br>
+	Lastname: 	<input type="text" name="lastname"><br>
+	Age: 		<input type="text" name="age">
+	<input type="submit">
+</form>
+
+<h1>Select</h1>
+<form method="post" action="show.php"> 
+	<input type="submit" value="See Results">
+</form>
+
+<h1>Update</h1>
+<form method="post" action="update.php">
+	
+	Original age<input type="text" name="firstnamechange"><br>
+	Change First name:<input type="text" name="firstname"><br>
+	Change Surname:<input type="text" name="lastname"><br>
+	Change Age:<input type="text" name="age"><br>
+
+	<input type="submit">
+</form>
+
+<h1>Delete</h1>
+<form method="post" action="delete.php">
+	#ID:<input type="text" name="pid">
+	<input type="submit">
+</form>
+
+
+ 
+</body>
+</html>
